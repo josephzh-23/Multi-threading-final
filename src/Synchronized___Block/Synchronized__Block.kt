@@ -1,8 +1,8 @@
 package Synchronized___Block
 
-// With this we can lock a specific method and class
+// With this we
+// lock the sumArray function in SumArray class 
 // And thread 1 will run first and then thread 2
-
 
 
 // Use a synchronized block to control access to SumArray class

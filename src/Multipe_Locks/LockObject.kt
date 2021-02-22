@@ -14,7 +14,7 @@ with 2 threads
 Notice there are 2 locks used here
  So we can access 1 function with 1 thread
 
- while accesing the other 1 function wit the other thread.
+ while accesing the other 1 function wit the 2nd thread.
 */
 class Worker {
     private val random = Random()
