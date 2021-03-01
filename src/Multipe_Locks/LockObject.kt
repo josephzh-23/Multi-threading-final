@@ -62,6 +62,7 @@ class Worker {
         val start = System.currentTimeMillis()
         val t1 = Thread(Runnable { process() })
         val t2 = Thread(Runnable { process() })
+
         t1.start()
         t2.start()
         try {
